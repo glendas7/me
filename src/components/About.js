@@ -8,7 +8,7 @@ export default function About() {
     return (
         <div class="intro" vocab id="about">
 
-            <Image src={MyPhoto} width="300"
+            <Image src={MyPhoto} width="280"
                 height="270" ALIGN="left" />
 
             <span>
