@@ -8,8 +8,8 @@ export default function About() {
     return (
         <div class="intro" vocab id="about">
 
-            <Image src={MyPhoto} width="150"
-                height="190" ALIGN="left" />
+            <Image src={MyPhoto} width="300"
+                height="270" ALIGN="left" />
 
             <span>
                 <div class="intro-box">
