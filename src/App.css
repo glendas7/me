@@ -14,6 +14,16 @@ a:hover {
   color: rgb(113, 29, 216);
 }
 
+.accent {
+  text-decoration: underline;
+  font-size: 40px;
+  padding-top: 10px;
+}
+.arrow {
+  color: rgb(104, 26, 199);
+  display: inline-block;
+}
+
 body {
   background-image: url("images/board.jpg");
   background-repeat: no-repeat;

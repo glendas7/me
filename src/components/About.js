@@ -17,7 +17,6 @@ export default function About() {
                     <p>I am an Aspiring Software Engineer & Senior
                         at the University of Central Oklahoma</p><p> majoring in (you guessed it!)
                             Software Engineering✨</p>
-                    <p>I hope to one day work as a Back End Developer or an Embedded Software Engineer</p>
                     <p>A little bit more about me: </p>
                     <p>Violinist, Mom of 1, Hiking/Nature Walks, Physics, Drones, MMOs, History</p>
                 </div>
