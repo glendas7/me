@@ -20,7 +20,6 @@ export default function About() {
                 <div>
                     <p>I am an Aspiring Software Engineer & Senior
                         at the University of Central Oklahoma</p>
-
                     <p delay=""> majoring in (you guessed it!)
                         Software Engineering✨</p>
                     <p>A little bit more about me: </p>

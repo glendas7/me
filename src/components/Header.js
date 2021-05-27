@@ -13,9 +13,8 @@ class Header extends Component {
                     <p>
                         <a href="#skills">Skills</a>
                     </p>
-                    {/* <a href="#projects">Projects</a>| */}
                     <p>
-                        <a href="#resume">Projects</a>
+                        <a href="#projects">Projects</a>
                     </p>
                     <p>
                         <a href="#about">About</a>
