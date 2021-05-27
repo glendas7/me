@@ -8,7 +8,6 @@ import Skills from './components/Skills.js'
 import FadeIn from 'react-fade-in';
 
 export default function App() {
-
   return (
     <div class="app">
       <div class="sidebar">

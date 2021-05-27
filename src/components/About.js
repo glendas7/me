@@ -12,18 +12,17 @@ export default function About() {
                         .typeString("Hello!")
                         .pauseFor(1000)
 
-                        .typeString(" My name is Glenda 👋")
+                        .typeString(" My name is Glenda")
                         .start()
                 }}
             />
-            <FadeIn delay="5250">
+            <FadeIn delay="4800">
                 <div>
+                    👋
                     <p>I am an Aspiring Software Engineer & Senior
                         at the University of Central Oklahoma</p>
                     <p delay=""> majoring in (you guessed it!)
                         Software Engineering✨</p>
-                    <p>A little bit more about me: </p>
-                    <p>Violinist, Mom of 1, Hiking/Nature Walks, Physics, Drones, MMOs, History</p>
                 </div>
             </FadeIn>
         </div >

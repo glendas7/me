@@ -1,21 +1,47 @@
 import React from 'react';
 import '../App.css';
+import ListItem from '@material-ui/core/ListItem';
+import Divider from '@material-ui/core/Divider';
+import { makeStyles } from '@material-ui/core/styles';
+import { SiFirebase } from 'react-icons/si';
+import { SiDart } from 'react-icons/si';
+import { SiFlutter } from 'react-icons/si';
 
-export default function Resume() {
 
+const useStyles = makeStyles(() => ({
+    divider: {
+        background: '#6e6e6e',
+        width: '90%',
+        marginLeft: '5%',
+
+    },
+}));
+
+
+export default function Projects() {
+    const classes = useStyles();
     return (
-        <div>
-            <div class="content-header" id="projects">Projects</div>
-            <div class="content">
-                Ghosts and Gumdrops Web Store - Created a web app for an online candy store. Users can create an account, simulate purchasing products, add/modify/delete products, comment and rate products, and edit their user profile.
-                <p>Utilized: Vanilla Js, Google Firebase</p>
-                <p></p>
-                <p></p>
-                <p>NotePad App - Utilized Dart, Flutter, and Google Firebase to create to create a phone app that can be used to create, edit, and delete notes</p>
-                <p>Java Game Collection - A collection of games created using Java inspired by classic popular games</p>
-            </div>
 
-        </div >
+        <div class="projects">
+            <div class="content-header" id="projects">Projects</div>
+            <ListItem>
+                <p>Ghosts and Gumdrops Web Store - Created a web app for an online candy store. Users can create an account, simulate purchasing products, add/modify/delete products, comment and rate products, and edit their user profile
+                    <i class="fab fa-js"></i><SiFirebase /><i class="fab fa-node"></i></p>
+            </ListItem>
+            <Divider classes={{ root: classes.divider }} />
+            <ListItem>
+                <p>Cute NotePad App - Created an app that can be used to create, edit, and delete notes <SiDart /><SiFlutter /><SiFirebase /></p>
+            </ListItem>
+            <Divider classes={{ root: classes.divider }} />
+            <ListItem>
+                <p>Java Game Collection - A collection of games inspired by classic popular games<i class="fab fa-java"></i> </p>
+            </ListItem>
+            <Divider classes={{ root: classes.divider }} />
+            <ListItem>
+                <p>KWIC + Microminer Web App - Worked in a group to create a web app that circular shifts and sorts statements. Input created by the user may be searched for utilizing the Microminer search background
+                    <i class="fab fa-js-square"></i><SiFirebase /><i class="fab fa-node"></i></p>
+            </ListItem>
+        </div>
     );
 
 }
