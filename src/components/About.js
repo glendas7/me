@@ -4,14 +4,14 @@ import FadeIn from 'react-fade-in';
 
 export default function About() {
     return (
-        <div class="intro" vocab id="about" >
+
+        <div class="intro" vocab id="about-h" >
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
                         .changeDelay(90)
                         .typeString("Hello!")
                         .pauseFor(1000)
-
                         .typeString(" My name is Glenda")
                         .start()
                 }}

@@ -23,25 +23,26 @@ export default function Projects() {
     return (
 
         <div class="projects">
-            <div class="content-header" id="projects">Projects</div>
+            <div class="content-header" id="projects-h">Projects</div>
+            <br />
             <ListItem>
-                <p>Candy Store Web App - Created a web app for an online candy store. Users can create an account, simulate purchasing products, add/modify/delete products, comment and rate products, and edit their user profile
+                <p><u>Candy Store Web App</u> - Created a web app for an online candy store.Users can create an account, simulate purchasing products, add/modify/delete products, comment and rate products, and edit their user profile
                     <i class="fab fa-js"></i><SiFirebase /><i class="fab fa-node"></i></p>
             </ListItem>
             <Divider classes={{ root: classes.divider }} />
             <ListItem>
-                <p>Nostalgia: Photo Memo App - Creating an app for sharing photos with other users. Users may also like and comment on a photo and update their profile information for other users to see. <SiDart /><SiFlutter /><SiFirebase /></p>
+                <p><u>Nostalgia: Photo Memo App</u> - Creating an app for sharing photos with other users.Users may also like and comment on a photo and update their profile information for other users to see.<SiDart /><SiFlutter /><SiFirebase /></p>
             </ListItem>
             <Divider classes={{ root: classes.divider }} />
             <ListItem>
-                <p>Java Game Collection - A collection of games inspired by classic popular games<i class="fab fa-java"></i> </p>
+                <p><u>Java Game Collection</u> - A collection of games inspired by classic popular games<i class="fab fa-java"></i> </p>
             </ListItem>
             <Divider classes={{ root: classes.divider }} />
             <ListItem>
-                <p>KWIC + Microminer Web App - Worked in a group to create a web app that circular shifts and sorts statements. Input created by the user may be searched for utilizing the Microminer search background
+                <p><u>KWIC + Microminer Web App</u> - Worked in a group to create a web app that circular shifts and sorts statements.Input created by the user may be searched for utilizing the Microminer search background
                     <i class="fab fa-js-square"></i><SiFirebase /><i class="fab fa-node"></i></p>
             </ListItem>
-        </div>
+        </div >
     );
 
 }
