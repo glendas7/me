@@ -3,6 +3,7 @@
   position: fixed;
   height: 100%;
   width: 15%;
+  overflow: hidden;
   float: left;
 }
 
@@ -12,13 +13,13 @@
 
 .sidebar-header {
   font-family: "Nova Slim", cursive;
-  font-size: 50px;
+  font-size: 3.6vw;
   padding-top: 20px;
   color: rgb(76, 58, 192);
 }
 
 .sidebar-nav {
-  font-size: 35px;
+  font-size: 4vw;
   text-align: center;
 }
 
