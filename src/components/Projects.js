@@ -25,12 +25,12 @@ export default function Projects() {
         <div class="projects">
             <div class="content-header" id="projects">Projects</div>
             <ListItem>
-                <p>Ghosts and Gumdrops Web Store - Created a web app for an online candy store. Users can create an account, simulate purchasing products, add/modify/delete products, comment and rate products, and edit their user profile
+                <p>Candy Store Web App - Created a web app for an online candy store. Users can create an account, simulate purchasing products, add/modify/delete products, comment and rate products, and edit their user profile
                     <i class="fab fa-js"></i><SiFirebase /><i class="fab fa-node"></i></p>
             </ListItem>
             <Divider classes={{ root: classes.divider }} />
             <ListItem>
-                <p>Cute NotePad App - Created an app that can be used to create, edit, and delete notes <SiDart /><SiFlutter /><SiFirebase /></p>
+                <p>Nostalgia: Photo Memo App - Creating an app for sharing photos with other users. Users may also like and comment on a photo and update their profile information for other users to see. <SiDart /><SiFlutter /><SiFirebase /></p>
             </ListItem>
             <Divider classes={{ root: classes.divider }} />
             <ListItem>

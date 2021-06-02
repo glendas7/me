@@ -6,8 +6,7 @@ export default function Resume() {
     return (
         <div class="resume">
             <div class="content-header" id="resume">Resume</div>
-            <a class="resume-link-text" href="https://drive.google.com/file/d/13oGtqYx8-7Fsg-aKzBpe5nuZ5v4vASCU/view?usp=sharing">View Resume</a>
+            <a class="resume-link-text" href="https://drive.google.com/file/d/1VJKUfgI-NT50ZPgLE-Ss9rSFHa5LSzKt/view?usp=sharing">View Resume</a>
         </div >
     );
-
 }
