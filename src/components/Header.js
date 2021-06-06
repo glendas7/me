@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MyPhoto from '../images/profile_pic.png'
+import MyPhoto from '../images/profilepic.png'
 import Image from 'react-bootstrap/Image'
 class Header extends Component {
     render() {

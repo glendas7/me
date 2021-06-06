@@ -7,7 +7,7 @@ export default function JustForFun() {
         <div class="extra">
             <div class="content-header" id="extra">Just for Fun</div>
             <br />
-            Current Build: <a href="https://secure.newegg.com/wishlist/pd/20367076">College Student Budget Build</a>
+            Current Build: <a href="https://secure.newegg.com/wishlist/pd/20367076">College Budget Build</a>
         </div >
     );
 }
