@@ -5,7 +5,7 @@ import FadeIn from 'react-fade-in';
 export default function About() {
     return (
 
-        <div class="intro" vocab id="about-h" >
+        <div class="intro" vocab id="about" >
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter

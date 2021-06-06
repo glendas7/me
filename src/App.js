@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css';
-import About from './components/About.js'
-import Resume from './components/Resume.js'
-import Header from './components/Header.js'
-import Projects from './components/Projects.js'
-import Skills from './components/Skills.js'
+import About from './components/About'
+import Resume from './components/Resume'
+import Header from './components/Header'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Fun from './components/JustForFun'
 import FadeIn from 'react-fade-in';
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
             <Skills></Skills>
             <Projects></Projects>
             <Resume></Resume>
+            <Fun></Fun>
           </div>
         </FadeIn>
       </div>
