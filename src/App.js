@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Fun from './components/JustForFun'
+import Credits from './components/Credits'
 import FadeIn from 'react-fade-in';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
             <Projects></Projects>
             <Resume></Resume>
             <Fun></Fun>
+            <Credits></Credits>
           </div>
         </FadeIn>
       </div>

@@ -55,6 +55,17 @@
   font-size: 44px;
 }
 
+.extra {
+  padding-bottom: 50px;
+}
+
+#credits {
+  font-size: 15px;
+}
+.skills {
+  font-size: 50px;
+}
+
 a:hover {
   color: rgb(88, 75, 172);
 }
@@ -86,8 +97,4 @@ a {
 p {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.skills {
-  font-size: 50px;
 }

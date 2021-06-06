@@ -13,7 +13,6 @@ export default function Skills() {
             <TiArrowRight style={arrow} />Javascript (Vanilla, Node.js, React)
             <TiArrowRight style={arrow} />SQL
             <TiArrowRight style={arrow} />PHP
-
         </div >
     );
 
