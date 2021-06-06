@@ -5,10 +5,8 @@ import Divider from '@material-ui/core/Divider';
 import { SiFirebase, SiJavascript, SiJava, SiDart, SiFlutter } from 'react-icons/si';
 import { FaNode } from 'react-icons/fa';
 
-
-
 const divider = {
-    background: 'rgb(199, 199, 199)',
+    background: 'rgb(72, 70, 85)',
     width: '90%',
     marginLeft: '5%',
 }
@@ -21,7 +19,6 @@ const flutter = { color: 'rgb(0, 187, 255)' }
 const dart = { color: 'rgb(0, 123, 255)' }
 
 export default function Projects() {
-    // const classes = divider();
     return (
 
         <div class="projects">

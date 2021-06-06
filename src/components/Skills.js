@@ -3,7 +3,8 @@ import '../App.css';
 import { TiArrowRight } from "react-icons/ti";
 
 export default function Skills() {
-    const arrow = { color: 'rgb(199, 199, 199)' }
+    const arrow = { color: 'rgb(72, 70, 85)' }
+
     return (
         <div class="skills">
             <div class="content-header" id="skills">Skills</div>
