@@ -7,13 +7,15 @@ export default function Skills() {
 
     return (
         <div class="skills">
-            <div class="content-header" id="skills">Skills</div>
-            <TiArrowRight style={arrow} />C++
-            <TiArrowRight style={arrow} />Java
-            <TiArrowRight style={arrow} />Python<br />
-            <TiArrowRight style={arrow} />Javascript (Vanilla, Node.js, React)
-            <TiArrowRight style={arrow} />SQL
-            <TiArrowRight style={arrow} />PHP
+            <div class="content-header" id="skills">SKILLS</div>
+            <div class="content-body">
+                <TiArrowRight style={arrow} />C++
+                <TiArrowRight style={arrow} />Java
+                <TiArrowRight style={arrow} />Python<br />
+                <TiArrowRight style={arrow} />Javascript (Vanilla, Node.js, React)
+                <TiArrowRight style={arrow} />SQL
+                <TiArrowRight style={arrow} />PHP
+            </div>
         </div >
     );
 
