@@ -2,39 +2,37 @@
   background-color: #181818;
   position: fixed;
   height: 100%;
-  width: 15%;
-  overflow: hidden;
+  width: 18%;
+  min-width: 80px;
+  overflow-y: scroll;
   float: left;
-}
-
-.sidebar-content {
   text-align: center;
 }
 
+/* Glenda Salas */
 .sidebar-header {
   font-family: "Nova Slim", cursive;
-  font-size: 3.5vw;
-  padding-top: 20px;
+  font-size: 3.8vw;
+  padding-top: 8px;
   color: rgb(88, 75, 172);
 }
 
+/* links */
 .sidebar-nav {
   font-size: 3vw;
   text-align: center;
 }
 
 #portrait {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 75%;
+  width: 80%;
   border-radius: 200px;
 }
 
 .page-content {
   height: 100%;
-  margin-left: 15%;
+  margin-left: 18%;
   text-align: center;
-  font-size: 37px;
+  font-size: 30px;
 }
 
 .intro {
@@ -48,18 +46,19 @@
 }
 
 .content-header {
-  font-size: 50px;
+  font-size: 45px;
   color: rgb(88, 75, 172);
   background-color: #292929;
 }
 
 .content-body {
-  padding-top: 35px;
+  padding-top: 25px;
   padding-bottom: 35px;
 }
 
 body {
-  color: rgb(141, 152, 182);
+  /* rgb(141, 152, 182); */
+  color: rgb(117, 126, 151);
   font-family: "Economica", sans-serif;
   background-color: rgb(34, 34, 34);
 }
@@ -79,7 +78,7 @@ a:hover {
 a {
   padding-right: 7px;
   padding-left: 7px;
-  color: rgb(141, 152, 182);
+  color: rgb(117, 126, 151);
   text-decoration: none;
   text-align: 25px;
   display: inline-block;
@@ -88,4 +87,23 @@ a {
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  /* background-color: transparent; */
+  background-color: rgb(34, 34, 34);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(40, 38, 75);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  /* background-clip: content-box; */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(55, 59, 109);
 }
