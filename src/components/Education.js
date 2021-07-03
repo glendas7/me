@@ -4,12 +4,18 @@ import '../App.css';
 export default function Education() {
 
     return (
-        <div class="extra">
-            <div class="content-header" id="extra">JUST FOR FUN</div>
+        <div class="education">
+            <div class="content-header" id="extra">EDUCATION</div>
             <div class="content-body">
-                Current Build: <a href="https://secure.newegg.com/wishlist/pd/20367076">College Budget Build</a><br />
-                What I'm Up To: <a href="https://www.udemy.com/course/unitycourse2/">Unity C#</a> ,
-                <a href="https://www.edx.org/course/introduction-to-kubernetes-on-edge-with-k3s">Kubernetes</a>
+                University of Central Oklahoma<br />
+                January 2019 - Present (Est Graduation Date: May 2022)<br />
+                Bachelors of Science in Software Engineering
+                <br /><br />
+                University of Nevada - Reno<br />
+                August 2021 - Present<br />
+                Bachelor of Science in Engineering<br />
+                <br />
+                *There is a slight overlap between the two degrees because I am taking some credit hrs at UNR. After finishing my SE degree, I will continue taking credits at UNR to work towards getting an additional BS in Engineering
             </div >
         </div>
     );

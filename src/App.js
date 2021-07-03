@@ -3,10 +3,10 @@ import './App.css';
 import About from './components/About'
 import Sidebar from './components/Sidebar'
 import Projects from './components/Projects'
+import Education from './components/Education'
 import Skills from './components/Skills'
 import Fun from './components/JustForFun'
 import Credits from './components/Credits'
-
 // import FadeIn from 'react-fade-in';
 
 export default function App() {
@@ -21,6 +21,7 @@ export default function App() {
         {/* <FadeIn delay="5400"> */}
         <Skills></Skills>
         <Projects></Projects>
+        <Education></Education>
         <Fun></Fun>
         <Credits></Credits>
       </div>
