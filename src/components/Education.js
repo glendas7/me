@@ -5,7 +5,7 @@ export default function Education() {
 
     return (
         <div class="education">
-            <div class="content-header" id="extra">EDUCATION</div>
+            <div class="content-header" id="education">EDUCATION</div>
             <div class="content-body">
                 University of Central Oklahoma<br />
                 January 2019 - Present (Est Graduation Date: May 2022)<br />
