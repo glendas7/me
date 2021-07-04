@@ -15,7 +15,6 @@ export default function Education() {
                 August 2021 - Present<br />
                 Bachelor of Science in Engineering<br />
                 <br />
-                *There is a slight overlap between the two degrees because I am taking some credit hrs at UNR. After finishing my SE degree, I will continue taking credits at UNR to work towards getting an additional BS in Engineering
             </div >
         </div>
     );
