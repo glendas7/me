@@ -2,9 +2,9 @@ import React from 'react';
 import Typewriter from "typewriter-effect";
 import FadeIn from 'react-fade-in';
 
-export default function About() {
+export default function Intro() {
     return (
-        <div class="intro" vocab id="about" >
+        <div class="intro" vocab id="intro" >
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
@@ -20,12 +20,6 @@ export default function About() {
                     👋
                     <p>I am a Full Time Student and Aspiring Software Engineer✨</p>
                     <p>I hope to one day work with Embedded Systems, Robotics or AI.</p>
-                    {/* <p>After I finishing my degree in Software Engineering in May 2022, I plan on continuing my education and learning more about Engineering </p> */}
-
-                    {/* <p>I am an Aspiring Software Engineer & Senior
-                        at the University of Central Oklahoma</p>
-                    <p delay=""> majoring in (you guessed it!)
-                        Software Engineering✨</p> */}
                 </div>
             </FadeIn>
         </div >

@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import About from './components/About'
+import Intro from './components/Intro'
 import Sidebar from './components/Sidebar'
 import Projects from './components/Projects'
 import Education from './components/Education'
@@ -17,7 +17,7 @@ export default function App() {
         <Sidebar></Sidebar>
       </div>
       <div class="page-content">
-        <About></About>
+        <Intro></Intro>
         {/* <FadeIn delay="5400"> */}
         <Skills></Skills>
         <Projects></Projects>
