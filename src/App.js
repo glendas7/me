@@ -12,20 +12,20 @@ import Credits from './components/Credits'
 export default function App() {
   return (
 
-    <div class="app">
+    <>
       <div class="sidebar">
-        <Sidebar></Sidebar>
+        <Sidebar />
       </div>
       <div class="page-content">
-        <Intro></Intro>
+        <Intro />
         {/* <FadeIn delay="5400"> */}
-        <Skills></Skills>
-        <Projects></Projects>
-        <Education></Education>
-        <Fun></Fun>
-        <Credits></Credits>
+        <Skills />
+        <Projects />
+        <Education />
+        <Fun />
+        <Credits />
       </div>
       {/* </FadeIn> */}
-    </div>
+    </>
   )
 }

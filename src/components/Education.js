@@ -1,7 +1,7 @@
 export default function Education() {
 
     return (
-        <div class="education">
+        <>
             <div class="content-header" id="education">EDUCATION</div>
             <div class="content-body">
                 University of Central Oklahoma<br />
@@ -13,6 +13,6 @@ export default function Education() {
                 Bachelor of Science in Engineering<br />
                 <br />
             </div >
-        </div>
+        </>
     );
 }

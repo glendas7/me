@@ -57,20 +57,14 @@
 }
 
 body {
-  /* rgb(141, 152, 182); */
   color: rgb(117, 126, 151);
   font-family: "Economica", sans-serif;
   background-color: rgb(34, 34, 34);
 }
 
-.extra {
-  padding-bottom: 50px;
-}
-
 #credits {
   font-size: 15px;
 }
-
 a:hover {
   color: rgb(88, 75, 172);
 }
@@ -82,11 +76,6 @@ a {
   text-decoration: none;
   text-align: 25px;
   display: inline-block;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 /* scrollbar */

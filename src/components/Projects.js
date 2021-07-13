@@ -19,7 +19,7 @@ const dart = { color: 'rgb(0, 123, 255)' }
 export default function Projects() {
     return (
 
-        <div class="projects">
+        <>
             <div class="content-header" id="projects">PROJECTS</div>
             <div class="content-body">
                 <u>Candy Store Web App</u> - Created a web app for an online candy store.Users can create an account, simulate purchasing products, add/modify/delete products, comment and rate products, and edit their user profile.
@@ -30,10 +30,11 @@ export default function Projects() {
                 <Divider style={divider} />
                 <u>Java Game Collection</u> - A collection of games inspired by classic favorites.<br /><SiJava style={java} />
                 <Divider style={divider} />
-                <p><u>KWIC + Microminer Web App</u> - Worked in a group to deliver a web app that circular shifts and sorts statements. The Input created by the user may also be searched for utilizing the 'Microminer' search feature.
-                    <br /><SiFirebase style={firebase} /><SiJavascript style={javascript} /></p>
+                <u>KWIC + Microminer Web App</u> - Worked in a group to deliver a web app that circular shifts and sorts statements.
+                <br />The Input created by the user may also be searched for utilizing the 'Microminer' search feature.
+                <br /><SiFirebase style={firebase} /><SiJavascript style={javascript} />
             </div >
-        </div>
+        </>
     );
 
 }

@@ -17,8 +17,8 @@ export default function Intro() {
             <FadeIn delay="4800">
                 <div>
                     👋
-                    <p>I am a Full Time Student and Aspiring Software Engineer✨</p>
-                    <p>I hope to one day work with Embedded Systems, Robotics or AI.</p>
+                    I am a Full Time Student and Aspiring Software Engineer✨<br />
+                    I hope to one day work with Embedded Systems, AI, or Full Stack<br />
                 </div>
             </FadeIn>
         </div >
