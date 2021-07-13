@@ -1,4 +1,3 @@
-import React from 'react';
 import '../App.css';
 import Divider from '@material-ui/core/Divider';
 import { SiFirebase, SiJavascript, SiJava, SiDart, SiFlutter } from 'react-icons/si';

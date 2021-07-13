@@ -1,4 +1,3 @@
-import React from 'react';
 import Typewriter from "typewriter-effect";
 import FadeIn from 'react-fade-in';
 
