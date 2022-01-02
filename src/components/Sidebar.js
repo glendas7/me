@@ -14,7 +14,7 @@ class Sidebar extends Component {
                 <Image id="portrait" src={MyPhoto} />
                 <div class="sidebar-nav">
 
-                    <a href="https://docs.google.com/document/d/1XuNrr0e8RhqOEVfaZ11FX-Lw6Nvp9tN4/edit?usp=sharing&ouid=113685823083068487432&rtpof=true&sd=true" target="_blank">Resume</a><br />
+                    <a href="https://docs.google.com/document/d/1XuNrr0e8RhqOEVfaZ11FX-Lw6Nvp9tN4/edit?usp=sharing&ouid=113685823083068487432&rtpof=true&sd=true" target="_blank" rel="noreferrer">Resume</a><br />
                     <a href="#intro">Intro</a><br />
                     <a href="#skills">Skills</a><br />
                     <a href="#projects">Projects</a><br />
