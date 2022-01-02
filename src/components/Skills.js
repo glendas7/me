@@ -10,9 +10,15 @@ export default function Skills() {
             <div class="content-body">
                 <TiArrowRight style={arrow} />C++
                 <TiArrowRight style={arrow} />Java
-                <TiArrowRight style={arrow} />Python<br />
-                <TiArrowRight style={arrow} />Javascript (Vanilla, Node.js, React)
+                <TiArrowRight style={arrow} />Python<br/>
                 <TiArrowRight style={arrow} />SQL
+                <TiArrowRight style={arrow} />GIT
+                <TiArrowRight style={arrow} />Javascript
+                <TiArrowRight style={arrow} />HTML/CSS
+                <TiArrowRight style={arrow} />NODE.JS
+                <TiArrowRight style={arrow} />REACT
+                <TiArrowRight style={arrow} />FLUTTER
+                <TiArrowRight style={arrow} />DART
                 <TiArrowRight style={arrow} />PHP
             </div>
         </ >
