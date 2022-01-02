@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import MyPhoto from '../images/self.jfif'
-import Image from 'react-bootstrap/Image'
+
+import Image from 'react-bootstrap/image'
 import { SiLinkedin, SiGithub, SiGmail } from 'react-icons/si';
 
 class Sidebar extends Component {
@@ -12,7 +13,8 @@ class Sidebar extends Component {
                 </header>
                 <Image id="portrait" src={MyPhoto} />
                 <div class="sidebar-nav">
-                    <a href="https://drive.google.com/file/d/1VJKUfgI-NT50ZPgLE-Ss9rSFHa5LSzKt/view?usp=sharing">Resume</a><br />
+
+                    <a href="https://docs.google.com/document/d/1XuNrr0e8RhqOEVfaZ11FX-Lw6Nvp9tN4/edit?usp=sharing&ouid=113685823083068487432&rtpof=true&sd=true" target="_blank">Resume</a><br />
                     <a href="#intro">Intro</a><br />
                     <a href="#skills">Skills</a><br />
                     <a href="#projects">Projects</a><br />
