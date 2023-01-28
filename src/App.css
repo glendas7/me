@@ -13,7 +13,7 @@
 .sidebar-header {
   font-family: "Nova Slim", cursive;
   font-size: 3.8vw;
-  padding-top: 8px;
+  padding-top: 2px;
   color: rgb(88, 75, 172);
 }
 
@@ -54,12 +54,18 @@
 .content-body {
   padding-top: 25px;
   padding-bottom: 35px;
+  padding-left: 10px;
 }
 
 body {
   color: rgb(117, 126, 151);
   font-family: "Economica", sans-serif;
   background-color: rgb(34, 34, 34);
+}
+
+.body-accent {
+  color: rgb(100, 90, 164);
+  display: inline;
 }
 
 #credits {
@@ -95,4 +101,6 @@ a {
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(55, 59, 109);
+  /* color: rgb(157, 8, 8); */
 }
+
