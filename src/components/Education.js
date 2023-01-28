@@ -3,19 +3,12 @@ export default function Education() {
     return (
         <>
             <div class="content-header" id="education">EDUCATION</div>
-            I am currently wrapping up the last few semesters of my Bachelors in Software Engineering.<br/>
-            At the same time, I am also taking classes to begin my path towards growing my knowledge of mechanical systems, robotics and artificial intelligence.<br/>
-            I have yet to decide if this will be done through aquiring an associates, certification, masters or by just taking supplemental classes...<br/>
-            Stay Tuned!<br/>
+            I am currently  working on completing my Bachelors degree. Besides Software Engineering, I'm also interested in computer-aided design, 3D printing and drones.
+            After graduating I plan on learning more about these areas.<br />
             <div class="content-body">
                 University of Central Oklahoma<br />
-                January 2019 - Present (Est Graduation Date: May 2022)<br />
-                BS in Software Engineering
-                <br /><br />
-                University of Nevada - Reno<br />
-                August 2021 - Present<br />
-                BS in Engineering<br />
-                <br />
+                January 2020 - Present (Est Graduation Date: May 2023)<br />
+                Bachelors of Science, Software Engineering
             </div >
         </>
     );

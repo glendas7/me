@@ -18,7 +18,7 @@ export default function Intro() {
                 <div>
                     👋
                     I am a Full Time Student and Aspiring Software Engineer✨<br />
-                    I hope to one day work with Embedded Systems, AI, or Full Stack<br />
+                    {/* I hope to one day work with Embedded Systems, AI, or Robotics<br /> */}
                 </div>
             </FadeIn>
         </div >

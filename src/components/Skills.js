@@ -9,8 +9,9 @@ export default function Skills() {
             <div class="content-header" id="skills">SKILLS</div>
             <div class="content-body">
                 <TiArrowRight style={arrow} />C++
+                <TiArrowRight style={arrow} />C#
                 <TiArrowRight style={arrow} />Java
-                <TiArrowRight style={arrow} />Python<br/>
+                <TiArrowRight style={arrow} />Python<br />
                 <TiArrowRight style={arrow} />SQL
                 <TiArrowRight style={arrow} />GIT
                 <TiArrowRight style={arrow} />Javascript
