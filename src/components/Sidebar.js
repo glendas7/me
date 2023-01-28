@@ -20,8 +20,8 @@ class Sidebar extends Component {
                     <a href="#projects">Projects</a><br />
                     <a href="#education">Education</a><br />
                     <a href="#extra">For Fun</a><br />
-                    <a href="https://github.com/glendasalas7" target="_blank" rel="noopener noreferrer"><SiGithub size={32} /></a>
-                    <a href="https://www.linkedin.com/in/g2salas" target="_blank" rel="noopener noreferrer"><SiLinkedin size={32} /></a>
+                    <a href="https://github.com/glendas7" target="_blank" rel="noopener noreferrer"><SiGithub size={32} /></a>
+                    <a href="https://www.linkedin.com/in/glendas7/" target="_blank" rel="noopener noreferrer"><SiLinkedin size={32} /></a>
                     <a href="mailto:gsalas1@uco.edu"><SiGmail size={32} /></a>
                 </div >
             </div>
