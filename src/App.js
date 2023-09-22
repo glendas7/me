@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar'
 import Projects from './components/Projects'
 import Education from './components/Education'
 import Skills from './components/Skills'
-import Fun from './components/JustForFun'
+import About from './components/AboutMe'
 import Credits from './components/Credits'
 // import FadeIn from 'react-fade-in';
 
@@ -22,7 +22,7 @@ export default function App() {
         <Skills />
         <Projects />
         <Education />
-        <Fun />
+        <About />
         <Credits />
       </div>
       {/* </FadeIn> */}

@@ -28,6 +28,12 @@
   border-radius: 200px;
 }
 
+#divider{
+  background: 'rgb(72, 70, 85)';
+  width: '90%';
+  margin-left:'5%';
+}
+
 .page-content {
   height: 100%;
   margin-left: 18%;
@@ -55,6 +61,17 @@
   padding-top: 25px;
   padding-bottom: 35px;
   padding-left: 10px;
+}
+
+.content-body-list {
+  padding-top: 25px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.icons{
+  text-align: center;
 }
 
 body {
