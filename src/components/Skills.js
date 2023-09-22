@@ -10,11 +10,12 @@ export default function Skills() {
             <div class="content-body">
                 <TiArrowRight style={arrow} />C++
                 <TiArrowRight style={arrow} />C#
-                <TiArrowRight style={arrow} />Java
-                <TiArrowRight style={arrow} />Python<br />
+                <TiArrowRight style={arrow} />JAVA
+                <TiArrowRight style={arrow} />PYTHON<br />
                 <TiArrowRight style={arrow} />SQL
+                <TiArrowRight style={arrow} />NoSQL
                 <TiArrowRight style={arrow} />GIT
-                <TiArrowRight style={arrow} />Javascript
+                <TiArrowRight style={arrow} />JAVASCRIPT
                 <TiArrowRight style={arrow} />HTML/CSS
                 <TiArrowRight style={arrow} />NODE.JS
                 <TiArrowRight style={arrow} />REACT
